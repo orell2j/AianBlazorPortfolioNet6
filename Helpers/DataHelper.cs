@@ -1,8 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using AianBlazorPortfolioNet6.Components.Data; // adjust namespace if necessary
+﻿using Microsoft.EntityFrameworkCore;
+using AianBlazorPortfolioNet6.Components.Data;
 
 namespace AianBlazorPortfolioNet6.Helpers
 {

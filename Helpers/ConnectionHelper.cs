@@ -1,7 +1,4 @@
-﻿using System;
-using Npgsql;
-using Microsoft.Extensions.Configuration;
-using NpgsqlTypes;
+﻿using Npgsql;
 
 namespace AianBlazorPortfolioNet6.Helpers
 {
