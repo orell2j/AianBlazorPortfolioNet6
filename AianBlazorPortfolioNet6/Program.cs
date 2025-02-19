@@ -7,6 +7,13 @@ using AianBlazorPortfolioNet6.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connStr = ConnectionHelper.GetConnectionString(builder.Configuration);
+if (string.IsNullOrEmpty(connStr))
+    Console.WriteLine("Connection string is null or empty!");
+else
+    Console.WriteLine($"Connection string: {connStr}");
+
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddControllers();
