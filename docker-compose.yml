@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  myapp:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - DATABASE_URL=postgresql://postgres:lZUoJCRONEbeflwiIAUPbeYCFdxxCnKa@postgres.railway.internal:5432/railway
