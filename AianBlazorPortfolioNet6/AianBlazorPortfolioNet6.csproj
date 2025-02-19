@@ -7,6 +7,7 @@
 	<BaseOutputPath>bin</BaseOutputPath>
 	<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	<InvariantGlobalization>true</InvariantGlobalization>
+	<UserSecretsId>a9965126-4f0d-48cf-92f4-3c9b1b3d4910</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
