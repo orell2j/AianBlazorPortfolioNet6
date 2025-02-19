@@ -5,4 +5,6 @@ services:
     ports:
       - "8080:80"
     environment:
-      - DATABASE_URL=postgresql://postgres:lZUoJCRONEbeflwiIAUPbeYCFdxxCnKa@<HOSTNAME>:5432/railway
+      - DATABASE_URL=postgresql://postgres:lZUoJCRONEbeflwiIAUPbeYCFdxxCnKa@<PUBLIC-HOSTNAME>:5432/railway
+
+
